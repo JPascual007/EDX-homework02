@@ -6,6 +6,7 @@
 4. Viewing the website or resizing the pages should provide a responsive layout
 
 ## ScreenShots
+<img src="./assets/images/Portfolio Screenshot.png" alt="Screenshot of website"/>
 
 ## Link to Application
 [Application Link - Open in a new tab](https://jpascual007.github.io/EDX-homework02/)
