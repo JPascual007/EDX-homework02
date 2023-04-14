@@ -5,37 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jonathan Pascual's Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/reset.css">
 </head>
 <body>
-
-    <header>
-    <!--Header bar near top right / Possible hamburger menu sidebar?-->
+<!--Header nav bar near top right-->
+    <header> 
+   <nav>
+      <h1>Jonathan Pascual</h1>
+      <div class="links">
+            <a href="#about"style="text-decoration:none">About Me</a>        
+            <a href="#work"style="text-decoration:none">Work</a>        
+            <a href="#contact"style="text-decoration:none">Contact Me</a>         
+            <a href="#resume"style="text-decoration:none">Resume</a>         
+      </div>
+   </nav>
     </header>
 
     <main>
-        <!--Body Content / About me, Previous Projects and current WIPs (Clickable pictures/Tooltips?), Contact Me-->
-
+<!--Body Content / About me, Previous Projects and current WIPs (Clickable pictures/Tooltips?), Contact Me-->
      <figure>
-        <!--Hero Photo / Subtitle-->
+<!--Hero Photo / Subtitle-->
+        <section class="hero">
+         <div class="hero-content">
+            <h2>Welcome to my Portfolio!</h2>
+         </div>
+        </section>
      </figure>
-
-     <section>
-        <!--About Me-->
+<!--About Me-->
+     <section id="about">
+      <div class="sidebar-content">
+         <div class="sidebar">
+            <h3 class="section-title">About Me</h3>
+         </div>
+      </div>
+      </section>
+      <div>
+        <div class="about-me-info">
+         Hello, my name is Jonathan Pascual. I am currently enrolled into a coding bootcamp at the University of California Irvine. My goal is to develop my knowledge and skills to create visually appealing websites. Feel free to check out my recent Projects in my work section.
+        </div>      
      </section>
 
-     <section>
-        <!--Photos and Projects-->
+<!--Photos and Projects-->
+     <section id="work">
+      <div class="sidebar-content">
+         <div class="sidebar">
+            <h3 class="section-title">Work</h3>
+            <div class="main">
+               <a href="https://jpascual007.github.io/EDX-homework01/" target="_blank">
+                  <img src="./assets/images/Surf.jpg" alt="People surfing at the beach">
+                  <div class="work-text">
+                     <h4>Surf Report</h4>
+                     <p>Mern Stack</p>
+                  </div>
+               </a>
+            </div>
+            <div class="work">
+               <a href="https://jpascual007.github.io/EDX-homework01/" target="_blank">
+                  <img src="./assets/images/LED Wall.jpg" alt="Red led bulbs on a wall">
+                  <div class="work-text">
+                     <h4>LED Wall</h4>
+                     <p>Node/IoT</p>
+                  </div>
+               </a>
+            </div>
+            <div class="work">
+               <a href="https://jpascual007.github.io/EDX-homework01/" target="_blank">
+                  <img src="./assets/images/Calculator.jpg" alt="Image of a Calculator and laptop">
+                  <div class="work-text">
+                     <h4>Calculator</h4>
+                     <p>React/Javascript/CSS</p>
+                  </div>
+               </a>
+            </div>
+            <div class="work">
+               <a href="https://jpascual007.github.io/EDX-homework01/" target="_blank">
+                  <img src="./assets/images/Pastel Puzzle.jpg" alt="Car on a blue and pink floor">
+                  <div class="work-text">
+                     <h4>Pastel Puzzle</h4>
+                     <p>MERN Stack</p>
+                  </div>
+               </a>
+            </div>
+            <div class="work">
+               <a href="https://jpascual007.github.io/EDX-homework01/" target="_blank">
+                  <img src="./assets/images/Run Buddy.jpg" alt="Person tying his shoelaces behind an application">
+                  <div class="work-text">
+                     <h4>Run Buddy</h4>
+                     <p>HTML/CSS</p>
+                  </div>
+               </a>
+            </div>
+         </div>
+      </div>
+      
      </section>
 
-     <section>
-        <!--Contact Me-->
+<!--Contact Me-->
+     <section id="contact">
+      <div class="sidebar-content">
+         <div class="sidebar">
+            <h3 class="section-title">Contact Me</h3>
+         </div>
+      </div>
+      <div class="contact-content">
+         <div class="contact-info">
+            <ul>
+               <li>
+                  <a href="tel:562-453-6642">Mobile</a>
+               </li>
+               <li>
+                  <a href="mailto:JonathanPascual007@Gmail.com">Email</a>
+               </li>
+               <li>
+                  <a href="https://github.com/JPascual007" target="_blank">Github</a>
+               </li>
+            </ul>
+         </div>
+      </div>
      </section>
     </main>
 
+<!--Footer Area / Copyright-->
     <footer>
-        <!--Footer Area / Copyright-->
-        © 2023 Jonathan Pascual
+      <div class="copyright">
+         © 2023 Jonathan Pascual
+      </div>
     </footer>
     
 </body>
